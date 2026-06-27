@@ -38,6 +38,7 @@
             // 
             // lblAccountName
             // 
+            lblAccountName.Anchor = AnchorStyles.None;
             lblAccountName.AutoSize = true;
             lblAccountName.BackColor = Color.LightGray;
             lblAccountName.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -49,6 +50,7 @@
             // 
             // txtAccountName
             // 
+            txtAccountName.Anchor = AnchorStyles.None;
             txtAccountName.BackColor = SystemColors.GrayText;
             txtAccountName.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtAccountName.ForeColor = SystemColors.Info;
@@ -59,9 +61,10 @@
             // 
             // lblMeterReadings
             // 
+            lblMeterReadings.Anchor = AnchorStyles.None;
             lblMeterReadings.BackColor = Color.LightGray;
             lblMeterReadings.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblMeterReadings.Location = new Point(45, 103);
+            lblMeterReadings.Location = new Point(45, 121);
             lblMeterReadings.Name = "lblMeterReadings";
             lblMeterReadings.Size = new Size(169, 35);
             lblMeterReadings.TabIndex = 2;
@@ -69,19 +72,21 @@
             // 
             // txtMeterReadings
             // 
+            txtMeterReadings.Anchor = AnchorStyles.None;
             txtMeterReadings.BackColor = SystemColors.GrayText;
             txtMeterReadings.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtMeterReadings.ForeColor = SystemColors.Info;
-            txtMeterReadings.Location = new Point(261, 111);
+            txtMeterReadings.Location = new Point(261, 129);
             txtMeterReadings.Name = "txtMeterReadings";
             txtMeterReadings.Size = new Size(248, 27);
             txtMeterReadings.TabIndex = 3;
             // 
             // btnProcessBilling
             // 
+            btnProcessBilling.Anchor = AnchorStyles.None;
             btnProcessBilling.BackColor = Color.LightGray;
             btnProcessBilling.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnProcessBilling.Location = new Point(45, 180);
+            btnProcessBilling.Location = new Point(45, 198);
             btnProcessBilling.Name = "btnProcessBilling";
             btnProcessBilling.Size = new Size(169, 39);
             btnProcessBilling.TabIndex = 4;
@@ -91,9 +96,10 @@
             // 
             // rtbOutput
             // 
+            rtbOutput.Anchor = AnchorStyles.None;
             rtbOutput.BackColor = SystemColors.Window;
             rtbOutput.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            rtbOutput.Location = new Point(238, 180);
+            rtbOutput.Location = new Point(241, 207);
             rtbOutput.Name = "rtbOutput";
             rtbOutput.Size = new Size(310, 157);
             rtbOutput.TabIndex = 5;
